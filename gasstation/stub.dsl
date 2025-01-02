@@ -1,0 +1,5 @@
+function(integer, calculateTotalTime, integer_array gaps)
+integer(n)
+array(integer, arr, n, single)
+invoke(integer, result, calculateTotalTime, arr)
+print(integer, result)
