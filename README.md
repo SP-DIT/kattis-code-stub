@@ -1,14 +1,18 @@
 # Kattis Code Stubs
 
+[![SP-DIT - kattis-code-stub](https://img.shields.io/static/v1?label=SP-DIT&message=kattis-code-stub&color=blue&logo=github)](https://github.com/SP-DIT/kattis-code-stub "Go to GitHub repo")
+[![stars - kattis-code-stub](https://img.shields.io/github/stars/SP-DIT/kattis-code-stub?style=social)](https://github.com/SP-DIT/kattis-code-stub)
+
 ## Contribution guide
 
-1. Fork the repository
-2. Create a branch for each challenge
-3. Duplicate an existing challenge
-4. Rename the folder (**Note:** Ensure that folder name matches the id of the challenge on Kattis)
-5. Use Hackerrank's DSL to code stub feature to generate.
-6. Update the files accordingly
-7. Open a pull request
+1. Fork the repository [![forks - kattis-code-stub](https://img.shields.io/github/forks/SP-DIT/kattis-code-stub?style=social)](https://github.com/SP-DIT/kattis-code-stub)
+2. Choose a problem to convert in the issues list and assign it to yourself [![issues - kattis-code-stub](https://img.shields.io/github/issues/SP-DIT/kattis-code-stub)](https://github.com/SP-DIT/kattis-code-stub/issues) 
+3. Create a branch for each challenge
+4. Duplicate an existing challenge
+5. Rename the folder (**Note:** Ensure that folder name matches the id of the challenge on Kattis)
+6. Use Hackerrank's DSL to code stub feature to generate.
+7. Update the files accordingly
+8. Open a pull request
 
 ## Testing the code stubs
 
