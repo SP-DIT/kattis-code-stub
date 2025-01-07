@@ -1,5 +1,4 @@
-function(integer, calculateTotalTime, integer_array gaps)
-integer(n)
-array(integer, arr, n, single)
-invoke(integer, result, calculateTotalTime, arr)
+function(integer, fittingRectangle, integer_array dimensions)
+array(integer, dimensions, 4, single)
+invoke(integer, result, fittingRectangle, dimensions)
 print(integer, result)
