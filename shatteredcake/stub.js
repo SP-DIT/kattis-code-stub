@@ -33,13 +33,7 @@ function readLine() {
 
 function calculateArea(w, dimensions) {
     // Write your code here
-    let totalArea = 0;
-    let finalLength = 0;
-    for (let [width, length] of dimensions) {
-        totalArea += width * length;
-    }
-    finalLength = totalArea / w;
-    return finalLength;
+
 }
 
 function main() {
