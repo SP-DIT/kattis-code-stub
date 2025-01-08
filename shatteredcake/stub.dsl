@@ -1,6 +1,6 @@
 function(integer, calculateArea, integer w, 2d_integer_array dimensions)
 integer(w)
 integer(n)
-2darray(integer, pieceDims, n, 2)
-invoke(integer, result, calculateArea, w, pieceDims)
+2darray(integer, dimensions, n, 2)
+invoke(integer, result, calculateArea, w, dimensions)
 print(integer, result)

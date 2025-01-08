@@ -49,13 +49,13 @@ function main() {
 
     const n = parseInt(readLine().trim(), 10);
 
-    let pieceDims = Array(n);
+    let dimensions = Array(n);
 
     for (let i = 0; i < n; i++) {
-        pieceDims[i] = readLine().replace(/\s+$/g, '').split(' ').map(pieceDimsTemp => parseInt(pieceDimsTemp, 10));
+        dimensions[i] = readLine().replace(/\s+$/g, '').split(' ').map(dimensionsTemp => parseInt(dimensionsTemp, 10));
     }
 
-    const result = calculateArea(w, pieceDims);
+    const result = calculateArea(w, dimensions);
 
     ws.write(result + '\n');
 
