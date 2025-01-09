@@ -1,0 +1,5 @@
+function(string, raTriangleVal, 2d_integer_array dimens)
+integer(n)
+2darray(integer, dimens, n, 3)
+invoke(string, result, raTriangleVal, dimens)
+print(string, result)
