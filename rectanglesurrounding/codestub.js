@@ -35,7 +35,7 @@ function findGridSquares(corners) {
 }
 
 function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+    const ws = process.stdout;
 
     const n = parseInt(readLine().trim(), 10);
 
