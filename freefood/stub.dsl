@@ -1,0 +1,5 @@
+function(integer, countOverlappingDays, 2d_integer_array periods)
+integer(n)
+2darray(integer, periods, n, 2)
+invoke(integer, result, countOverlappingDays, periods)
+print(integer, result)
